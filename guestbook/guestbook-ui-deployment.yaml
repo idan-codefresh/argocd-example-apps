@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
-moshe:
+
 metadata:
   name: guestbook-ui
 spec:
-  replicas: 2
+  replicas: afadfasdf
   revisionHistoryLimit: 3
   selector:
     matchLabels:
