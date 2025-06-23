@@ -8,5 +8,5 @@ resources:
 
 images:
   - name: gcr.io/google-samples/gb-frontend
-    newTag: v4
+    newTag: v6
     #newTag: v5.2.0  # <-- replace with your desired SemVer
