@@ -1,3 +1,4 @@
+# guestbook-ui-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -14,7 +15,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: gcr.io/google-samples/gb-frontend:v5
-        name: guestbook-ui
+      - name: guestbook-ui
+        image: gcr.io/google-samples/gb-frontend  # <-- no tag
         ports:
         - containerPort: 80
