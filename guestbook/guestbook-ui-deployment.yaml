@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   annotations:
     argocd.argoproj.io/sync-options: Prune=confirm
-  name: guestbook-ui-b
+  name: guestbook-ui-a
 spec:
   replicas: 2
   revisionHistoryLimit: 3
