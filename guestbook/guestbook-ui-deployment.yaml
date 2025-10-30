@@ -2,7 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: guestbook-ui
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=confirm
+  name: guestbook-ui-b
 spec:
   replicas: 2
   revisionHistoryLimit: 3
