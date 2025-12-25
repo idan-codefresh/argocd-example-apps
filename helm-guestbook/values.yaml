@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/google-samples/gb-frontend
-  tag: v5
+  repository: docker.io/idanarbel/gb-frontend
+  tag: v3
   pullPolicy: IfNotPresent
 
 containerPort: 80
