@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: docker.io/idanarbel/gb-frontend
-  tag: v17
+  tag: v18
   pullPolicy: IfNotPresent
 
 containerPort: 80
